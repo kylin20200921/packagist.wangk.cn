@@ -1,0 +1,31 @@
+{
+    "name": "wangk.cn/packagist",
+    "description": "麒麟教育",
+    "homepage": "https://packagist.wangk.cn",
+    "output-dir": "public",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://gitee.com/kylin20200921/project.wangk.cn.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitee.com/kylin20200921/modules.wangk.cn.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitee.com/kylin20200921/api.suyuan.wangk.cn.git"
+        }
+    ],
+    "archive": {
+        "directory": "dist",
+        "format": "tar",
+        "prefix-url": "https://packagist.wangk.cn",
+        "skip-dev": true,
+        "checksum": true,
+        "ignore-filters": false,
+        "override-dist-type": true,
+        "rearchive": true
+    },
+    "require-all": true
+}

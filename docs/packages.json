@@ -1,0 +1,14 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$d30491226b70143f9f53ff32170a1e280d761f3e.json": {
+            "sha1": "d30491226b70143f9f53ff32170a1e280d761f3e"
+        }
+    },
+    "metadata-url": "/packagist.wangk.cn/p2/%package%.json",
+    "available-packages": [
+        "kylin/kylin",
+        "kylin/modules",
+        "kylin/sy-api"
+    ]
+}
