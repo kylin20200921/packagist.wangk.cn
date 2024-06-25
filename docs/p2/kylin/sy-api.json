@@ -1,0 +1,666 @@
+{
+    "packages": {
+        "kylin/sy-api": [
+            {
+                "name": "kylin/sy-api",
+                "version": "1.0.0.1",
+                "version_normalized": "1.0.0.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitee.com/kylin20200921/api.suyuan.wangk.cn.git",
+                    "reference": "e1685f38e3924402eb9bad32b4153aa4cb347a63"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.0.0.1-5a6a69.tar",
+                    "reference": "e1685f38e3924402eb9bad32b4153aa4cb347a63",
+                    "shasum": "84bdc4cac5ef42a4f971ecd5ef8a6871dc8f48f2"
+                },
+                "require": {
+                    "easy-task/easy-task": "^2.4",
+                    "hg/apidoc-thinkphp": "^3.1",
+                    "overtrue/flysystem-qiniu": "^1.0",
+                    "php": ">=7.3",
+                    "phpoffice/phpspreadsheet": "^1.25",
+                    "topthink/framework": "^6.0",
+                    "topthink/think-captcha": "^3.0",
+                    "topthink/think-filesystem": "^1.0",
+                    "topthink/think-multi-app": "^1.0",
+                    "topthink/think-orm": "^2.0"
+                },
+                "require-dev": {
+                    "symfony/var-dumper": "^4.2",
+                    "topthink/think-trace": "^1.0"
+                },
+                "time": "2023-02-24T06:14:00+00:00",
+                "type": "project",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "app\\": "app"
+                    },
+                    "psr-0": {
+                        "": "extend/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php think service:discover",
+                        "@php think vendor:publish"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.example.env', '.env');\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "新农ERP后台API",
+                "keywords": [
+                    "Kylin",
+                    "新农ERP"
+                ]
+            },
+            {
+                "name": "kylin/sy-api",
+                "version": "1.0.0.2",
+                "version_normalized": "1.0.0.2",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitee.com/kylin20200921/api.suyuan.wangk.cn.git",
+                    "reference": "7887d0eeb49825142bc5938bbf3154dcdcf38519"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.0.0.2-6844a8.tar",
+                    "reference": "7887d0eeb49825142bc5938bbf3154dcdcf38519",
+                    "shasum": "8dcf066d29d291ac1456ee6ce3bc179ecaaa9403"
+                },
+                "require": {
+                    "easy-task/easy-task": "^2.4",
+                    "hg/apidoc-thinkphp": "^3.1",
+                    "overtrue/flysystem-qiniu": "^1.0",
+                    "php": ">=7.3",
+                    "phpoffice/phpspreadsheet": "^1.25",
+                    "topthink/framework": "^6.0",
+                    "topthink/think-captcha": "^3.0",
+                    "topthink/think-filesystem": "^1.0",
+                    "topthink/think-multi-app": "^1.0",
+                    "topthink/think-orm": "^2.0"
+                },
+                "require-dev": {
+                    "symfony/var-dumper": "^4.2",
+                    "topthink/think-trace": "^1.0"
+                },
+                "time": "2023-03-16T07:49:51+00:00",
+                "type": "project",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "app\\": "app"
+                    },
+                    "psr-0": {
+                        "": "extend/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php think service:discover",
+                        "@php think vendor:publish"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.example.env', '.env');\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "新农ERP后台API",
+                "keywords": [
+                    "Kylin",
+                    "新农ERP"
+                ]
+            },
+            {
+                "name": "kylin/sy-api",
+                "version": "1.1.0.1",
+                "version_normalized": "1.1.0.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitee.com/kylin20200921/api.suyuan.wangk.cn.git",
+                    "reference": "7887d0eeb49825142bc5938bbf3154dcdcf38519"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.1-6844a8.tar",
+                    "reference": "7887d0eeb49825142bc5938bbf3154dcdcf38519",
+                    "shasum": "639448ff0470b2e913d7a384a40e8adc762a0b60"
+                },
+                "require": {
+                    "easy-task/easy-task": "^2.4",
+                    "hg/apidoc-thinkphp": "^3.1",
+                    "overtrue/flysystem-qiniu": "^1.0",
+                    "php": ">=7.3",
+                    "phpoffice/phpspreadsheet": "^1.25",
+                    "topthink/framework": "^6.0",
+                    "topthink/think-captcha": "^3.0",
+                    "topthink/think-filesystem": "^1.0",
+                    "topthink/think-multi-app": "^1.0",
+                    "topthink/think-orm": "^2.0"
+                },
+                "require-dev": {
+                    "symfony/var-dumper": "^4.2",
+                    "topthink/think-trace": "^1.0"
+                },
+                "time": "2023-03-16T07:49:51+00:00",
+                "type": "project",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "app\\": "app"
+                    },
+                    "psr-0": {
+                        "": "extend/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php think service:discover",
+                        "@php think vendor:publish"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.example.env', '.env');\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "新农ERP后台API",
+                "keywords": [
+                    "Kylin",
+                    "新农ERP"
+                ]
+            },
+            {
+                "name": "kylin/sy-api",
+                "version": "1.1.0.2",
+                "version_normalized": "1.1.0.2",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitee.com/kylin20200921/api.suyuan.wangk.cn.git",
+                    "reference": "97acf2a30fd155338a870bd1fb0a371d232f419f"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.2-598c74.tar",
+                    "reference": "97acf2a30fd155338a870bd1fb0a371d232f419f",
+                    "shasum": "bb6cdcc0ce85d329f7f6c566f46362f2af7bfe26"
+                },
+                "require": {
+                    "easy-task/easy-task": "^2.4",
+                    "hg/apidoc-thinkphp": "^3.1",
+                    "overtrue/flysystem-qiniu": "^1.0",
+                    "php": ">=7.3",
+                    "phpoffice/phpspreadsheet": "^1.25",
+                    "topthink/framework": "^6.0",
+                    "topthink/think-captcha": "^3.0",
+                    "topthink/think-filesystem": "^1.0",
+                    "topthink/think-multi-app": "^1.0",
+                    "topthink/think-orm": "^2.0"
+                },
+                "require-dev": {
+                    "symfony/var-dumper": "^4.2",
+                    "topthink/think-trace": "^1.0"
+                },
+                "time": "2023-03-20T01:43:23+00:00",
+                "type": "project",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "app\\": "app"
+                    },
+                    "psr-0": {
+                        "": "extend/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php think service:discover",
+                        "@php think vendor:publish"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.example.env', '.env');\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "新农ERP后台API",
+                "keywords": [
+                    "Kylin",
+                    "新农ERP"
+                ]
+            },
+            {
+                "name": "kylin/sy-api",
+                "version": "1.1.0.3",
+                "version_normalized": "1.1.0.3",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitee.com/kylin20200921/api.suyuan.wangk.cn.git",
+                    "reference": "7d39eeca943dcbf8b6352518706ddf09a122ba2a"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.3-a9ee77.tar",
+                    "reference": "7d39eeca943dcbf8b6352518706ddf09a122ba2a",
+                    "shasum": "a3fe7e01f90b24e41dd6181b5df7cce202ab01f9"
+                },
+                "require": {
+                    "easy-task/easy-task": "^2.4",
+                    "hg/apidoc-thinkphp": "^3.1",
+                    "overtrue/flysystem-qiniu": "^1.0",
+                    "php": ">=7.3",
+                    "phpoffice/phpspreadsheet": "^1.25",
+                    "topthink/framework": "^6.0",
+                    "topthink/think-captcha": "^3.0",
+                    "topthink/think-filesystem": "^1.0",
+                    "topthink/think-multi-app": "^1.0",
+                    "topthink/think-orm": "^2.0"
+                },
+                "require-dev": {
+                    "symfony/var-dumper": "^4.2",
+                    "topthink/think-trace": "^1.0"
+                },
+                "time": "2023-03-20T04:39:39+00:00",
+                "type": "project",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "app\\": "app"
+                    },
+                    "psr-0": {
+                        "": "extend/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php think service:discover",
+                        "@php think vendor:publish"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.example.env', '.env');\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "新农ERP后台API",
+                "keywords": [
+                    "Kylin",
+                    "新农ERP"
+                ]
+            },
+            {
+                "name": "kylin/sy-api",
+                "version": "1.1.0.4",
+                "version_normalized": "1.1.0.4",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitee.com/kylin20200921/api.suyuan.wangk.cn.git",
+                    "reference": "45e08b89116154262c461c6a6143e2218256b16a"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.4-de1817.tar",
+                    "reference": "45e08b89116154262c461c6a6143e2218256b16a",
+                    "shasum": "f154d977e6e03e34897fb1a0fa0327e1559850b8"
+                },
+                "require": {
+                    "easy-task/easy-task": "^2.4",
+                    "hg/apidoc-thinkphp": "^3.1",
+                    "overtrue/flysystem-qiniu": "^1.0",
+                    "php": ">=7.3",
+                    "phpoffice/phpspreadsheet": "^1.25",
+                    "topthink/framework": "^6.0",
+                    "topthink/think-captcha": "^3.0",
+                    "topthink/think-filesystem": "^1.0",
+                    "topthink/think-multi-app": "^1.0",
+                    "topthink/think-orm": "^2.0"
+                },
+                "require-dev": {
+                    "symfony/var-dumper": "^4.2",
+                    "topthink/think-trace": "^1.0"
+                },
+                "time": "2023-03-22T01:50:05+00:00",
+                "type": "project",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "app\\": "app"
+                    },
+                    "psr-0": {
+                        "": "extend/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php think service:discover",
+                        "@php think vendor:publish"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.example.env', '.env');\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "新农ERP后台API",
+                "keywords": [
+                    "Kylin",
+                    "新农ERP"
+                ]
+            },
+            {
+                "name": "kylin/sy-api",
+                "version": "1.1.0.5",
+                "version_normalized": "1.1.0.5",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitee.com/kylin20200921/api.suyuan.wangk.cn.git",
+                    "reference": "38e74f0d57dd85a550b33ab268335b657bb06c53"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.5-975f43.tar",
+                    "reference": "38e74f0d57dd85a550b33ab268335b657bb06c53",
+                    "shasum": "83fb3d4df133c06520e31295f8dfbb2d432aab7e"
+                },
+                "require": {
+                    "easy-task/easy-task": "^2.4",
+                    "hg/apidoc-thinkphp": "^3.1",
+                    "overtrue/flysystem-qiniu": "^1.0",
+                    "php": ">=7.3",
+                    "phpoffice/phpspreadsheet": "^1.25",
+                    "topthink/framework": "^6.0",
+                    "topthink/think-captcha": "^3.0",
+                    "topthink/think-filesystem": "^1.0",
+                    "topthink/think-multi-app": "^1.0",
+                    "topthink/think-orm": "^2.0"
+                },
+                "require-dev": {
+                    "symfony/var-dumper": "^4.2",
+                    "topthink/think-trace": "^1.0"
+                },
+                "time": "2023-04-10T09:28:11+00:00",
+                "type": "project",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "app\\": "app"
+                    },
+                    "psr-0": {
+                        "": "extend/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php think service:discover",
+                        "@php think vendor:publish"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.example.env', '.env');\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "新农ERP后台API",
+                "keywords": [
+                    "Kylin",
+                    "新农ERP"
+                ]
+            },
+            {
+                "name": "kylin/sy-api",
+                "version": "1.1.0.6",
+                "version_normalized": "1.1.0.6",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitee.com/kylin20200921/api.suyuan.wangk.cn.git",
+                    "reference": "e4d7e4c929dd7167aae24f540432dd2edb9855a0"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.6-550ba7.tar",
+                    "reference": "e4d7e4c929dd7167aae24f540432dd2edb9855a0",
+                    "shasum": "827354630b090379215c882752f5bf37c0c3a511"
+                },
+                "require": {
+                    "easy-task/easy-task": "^2.4",
+                    "hg/apidoc-thinkphp": "^3.1",
+                    "overtrue/flysystem-qiniu": "^1.0",
+                    "php": ">=7.3",
+                    "phpoffice/phpspreadsheet": "^1.25",
+                    "topthink/framework": "^6.0",
+                    "topthink/think-captcha": "^3.0",
+                    "topthink/think-filesystem": "^1.0",
+                    "topthink/think-multi-app": "^1.0",
+                    "topthink/think-orm": "^2.0"
+                },
+                "require-dev": {
+                    "symfony/var-dumper": "^4.2",
+                    "topthink/think-trace": "^1.0"
+                },
+                "time": "2023-04-12T00:35:21+00:00",
+                "type": "project",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "app\\": "app"
+                    },
+                    "psr-0": {
+                        "": "extend/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php think service:discover",
+                        "@php think vendor:publish"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.example.env', '.env');\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "新农ERP后台API",
+                "keywords": [
+                    "Kylin",
+                    "新农ERP"
+                ]
+            },
+            {
+                "name": "kylin/sy-api",
+                "version": "1.1.0.7",
+                "version_normalized": "1.1.0.7",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitee.com/kylin20200921/api.suyuan.wangk.cn.git",
+                    "reference": "d4f329870c5c58ccf827e46e9e38c7f41f4abca8"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.7-2eb5e3.tar",
+                    "reference": "d4f329870c5c58ccf827e46e9e38c7f41f4abca8",
+                    "shasum": "b6232f8ed4fa64beac7007729209e44547d4ec67"
+                },
+                "require": {
+                    "easy-task/easy-task": "^2.4",
+                    "hg/apidoc-thinkphp": "^3.1",
+                    "overtrue/flysystem-qiniu": "^1.0",
+                    "php": ">=7.3",
+                    "phpoffice/phpspreadsheet": "^1.25",
+                    "topthink/framework": "^6.0",
+                    "topthink/think-captcha": "^3.0",
+                    "topthink/think-filesystem": "^1.0",
+                    "topthink/think-multi-app": "^1.0",
+                    "topthink/think-orm": "^2.0"
+                },
+                "require-dev": {
+                    "symfony/var-dumper": "^4.2",
+                    "topthink/think-trace": "^1.0"
+                },
+                "time": "2023-04-16T08:56:14+00:00",
+                "type": "project",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "app\\": "app"
+                    },
+                    "psr-0": {
+                        "": "extend/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php think service:discover",
+                        "@php think vendor:publish"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.example.env', '.env');\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "新农ERP后台API",
+                "keywords": [
+                    "Kylin",
+                    "新农ERP"
+                ]
+            },
+            {
+                "name": "kylin/sy-api",
+                "version": "1.1.0.8",
+                "version_normalized": "1.1.0.8",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitee.com/kylin20200921/api.suyuan.wangk.cn.git",
+                    "reference": "86e1e50144fafea076def799e5bb45dadc5e97aa"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.8-4fa423.tar",
+                    "reference": "86e1e50144fafea076def799e5bb45dadc5e97aa",
+                    "shasum": "8a852983fc192f6897e4433770f2153cb2782907"
+                },
+                "require": {
+                    "easy-task/easy-task": "^2.4",
+                    "hg/apidoc-thinkphp": "^3.1",
+                    "overtrue/flysystem-qiniu": "^1.0",
+                    "php": ">=7.3",
+                    "phpoffice/phpspreadsheet": "^1.25",
+                    "topthink/framework": "^6.0",
+                    "topthink/think-captcha": "^3.0",
+                    "topthink/think-filesystem": "^1.0",
+                    "topthink/think-multi-app": "^1.0",
+                    "topthink/think-orm": "^2.0"
+                },
+                "require-dev": {
+                    "symfony/var-dumper": "^4.2",
+                    "topthink/think-trace": "^1.0"
+                },
+                "time": "2023-05-04T07:10:53+00:00",
+                "type": "project",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "app\\": "app"
+                    },
+                    "psr-0": {
+                        "": "extend/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php think service:discover",
+                        "@php think vendor:publish"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.example.env', '.env');\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "新农ERP后台API",
+                "keywords": [
+                    "Kylin",
+                    "新农ERP"
+                ]
+            },
+            {
+                "name": "kylin/sy-api",
+                "version": "1.1.0.9",
+                "version_normalized": "1.1.0.9",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitee.com/kylin20200921/api.suyuan.wangk.cn.git",
+                    "reference": "51f56fa6f010b2ccf6c0a2af66141229bd223371"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.9-030669.tar",
+                    "reference": "51f56fa6f010b2ccf6c0a2af66141229bd223371",
+                    "shasum": "16db2eeaae61153308a1ce2b73891a2d2270796e"
+                },
+                "require": {
+                    "easy-task/easy-task": "^2.4",
+                    "hg/apidoc-thinkphp": "^3.1",
+                    "overtrue/flysystem-qiniu": "^1.0",
+                    "php": ">=7.3",
+                    "phpoffice/phpspreadsheet": "^1.25",
+                    "topthink/framework": "^6.0",
+                    "topthink/think-captcha": "^3.0",
+                    "topthink/think-filesystem": "^1.0",
+                    "topthink/think-multi-app": "^1.0",
+                    "topthink/think-orm": "^2.0"
+                },
+                "require-dev": {
+                    "symfony/var-dumper": "^4.2",
+                    "topthink/think-trace": "^1.0"
+                },
+                "time": "2023-06-20T15:58:54+00:00",
+                "type": "project",
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "app\\": "app"
+                    },
+                    "psr-0": {
+                        "": "extend/"
+                    }
+                },
+                "scripts": {
+                    "post-autoload-dump": [
+                        "@php think service:discover",
+                        "@php think vendor:publish"
+                    ],
+                    "post-root-package-install": [
+                        "@php -r \"file_exists('.env') || copy('.example.env', '.env');\""
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "新农ERP后台API",
+                "keywords": [
+                    "Kylin",
+                    "新农ERP"
+                ]
+            }
+        ]
+    }
+}
