@@ -8,28 +8,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://gitee.com/kylin20200921/admin.wangk.cn.git",
-                    "reference": "c3d3fd03f8037910545414ce0e70cbba4405016f"
+                    "reference": "f78decbdde07f0bc72dc9d4cde88181ec4098075"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://packagist.wangk.cn/dist/kylin/admin/kylin-admin-0.0.1-c9299a.tar",
-                    "reference": "c3d3fd03f8037910545414ce0e70cbba4405016f",
-                    "shasum": "7328432fee4e1275b1af7b46d22b550be03cdf2c"
+                    "url": "https://packagist.wangk.cn/dist/kylin/admin/kylin-admin-0.0.1-e72898.tar",
+                    "reference": "f78decbdde07f0bc72dc9d4cde88181ec4098075",
+                    "shasum": "21973dce95d714493833fb0408812c63b0af08e6"
                 },
                 "require": {
-                    "doctrine/dbal": "^2.6|^3.0",
+                    "doctrine/dbal": "^2.6|^3.0|^4.0",
                     "laravel/framework": "~10.0|~11.0|~12.0",
                     "php": "^8.2",
                     "spatie/eloquent-sortable": "3.*|4.*"
                 },
-                "require-dev": {
-                    "fzaninotto/faker": "^1.4",
-                    "laravel/dusk": "~5.9|~6",
-                    "mockery/mockery": "^1.0",
-                    "phpstan/phpstan": "^0.12.0",
-                    "phpunit/phpunit": "^7.5|~9"
-                },
-                "time": "2024-08-12T05:30:58+00:00",
+                "time": "2024-08-12T05:46:24+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -46,11 +39,6 @@
                     "files": [
                         "src/Support/helpers.php"
                     ]
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "Dcat\\Admin\\Tests\\": "tests/"
-                    }
                 },
                 "scripts": {
                     "phpstan": [
