@@ -45,7 +45,6 @@
                         "dev-master": "1.0-dev"
                     }
                 },
-                "installation-source": "source",
                 "autoload": {
                     "psr-4": {
                         "Kylin\\Modules\\": "src"
