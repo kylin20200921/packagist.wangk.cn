@@ -6,7 +6,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://gitee.com/kylin20200921/project.wangk.cn.git"
+            "url": "https://gitee.com/kylin20200921/laravel.wangk.cn.git"
         },
         {
             "type": "vcs",
