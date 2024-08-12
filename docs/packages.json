@@ -1,14 +1,14 @@
 {
     "packages": [],
     "includes": {
-        "include/all$81c763112dab5eed1c816567a31e787ba7fa78a2.json": {
-            "sha1": "81c763112dab5eed1c816567a31e787ba7fa78a2"
+        "include/all$86c5c7f825a27dc8b3e8b2b1fce528885f79d700.json": {
+            "sha1": "86c5c7f825a27dc8b3e8b2b1fce528885f79d700"
         }
     },
     "metadata-url": "/p2/%package%.json",
     "available-packages": [
         "kylin/admin",
-        "kylin/kylin",
+        "kylin/laravel",
         "kylin/modules",
         "kylin/sy-api"
     ]
