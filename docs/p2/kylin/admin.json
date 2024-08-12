@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://gitee.com/kylin20200921/admin.wangk.cn.git",
-                    "reference": "7acbbfda1af8fafdb67a3fc3b24a85d43164b7b8"
+                    "reference": "c3d3fd03f8037910545414ce0e70cbba4405016f"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://packagist.wangk.cn/dist/kylin/admin/kylin-admin-0.0.1-d4c23b.tar",
-                    "reference": "7acbbfda1af8fafdb67a3fc3b24a85d43164b7b8",
-                    "shasum": "4b7aa25dfd34a1df7def4005b79119ceedd76687"
+                    "url": "https://packagist.wangk.cn/dist/kylin/admin/kylin-admin-0.0.1-c9299a.tar",
+                    "reference": "c3d3fd03f8037910545414ce0e70cbba4405016f",
+                    "shasum": "71bd60d36b132eacbccc9b8d72b9c2186f29f018"
                 },
                 "require": {
                     "doctrine/dbal": "^2.6|^3.0",
-                    "laravel/framework": "~5.5|~6.0|~7.0|~8.0|~9.0|~10.0|~11.0|~12.0",
-                    "php": ">=7.1.0",
+                    "laravel/framework": "~10.0|~11.0|~12.0",
+                    "php": "^8.2",
                     "spatie/eloquent-sortable": "3.*|4.*"
                 },
                 "require-dev": {
@@ -29,7 +29,7 @@
                     "phpstan/phpstan": "^0.12.0",
                     "phpunit/phpunit": "^7.5|~9"
                 },
-                "time": "2024-08-12T05:18:44+00:00",
+                "time": "2024-08-12T05:30:58+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
@@ -63,21 +63,10 @@
                 "license": [
                     "MIT"
                 ],
-                "authors": [
-                    {
-                        "name": "jqh",
-                        "email": "841324345@qq.com"
-                    }
-                ],
-                "description": "dcat admin",
-                "homepage": "https://github.com/jqhph/dcat-admin",
+                "description": "麒麟集团",
                 "keywords": [
-                    "admin",
-                    "dcat",
-                    "form",
-                    "grid",
-                    "laravel",
-                    "laravel admin"
+                    "Kylin",
+                    "系统模板"
                 ]
             }
         ]
