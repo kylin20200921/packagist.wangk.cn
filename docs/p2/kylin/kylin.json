@@ -14,7 +14,7 @@
                     "type": "tar",
                     "url": "https://packagist.wangk.cn/dist/kylin/kylin/kylin-kylin-1.0.0.0-f0bcee.tar",
                     "reference": "96caeffba5c5c72e7e6cf8040c6c7eda1e6152c6",
-                    "shasum": "6f120354aaeb4c6963fbe1c045799ffd614c7510"
+                    "shasum": "387c61f9cacffc61fc895e0c4265a85139aece17"
                 },
                 "require": {
                     "akaunting/laravel-firewall": "*",
