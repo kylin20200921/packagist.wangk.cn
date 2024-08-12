@@ -14,7 +14,7 @@
                     "type": "tar",
                     "url": "https://packagist.wangk.cn/dist/kylin/admin/kylin-admin-0.0.1-c9299a.tar",
                     "reference": "c3d3fd03f8037910545414ce0e70cbba4405016f",
-                    "shasum": "71bd60d36b132eacbccc9b8d72b9c2186f29f018"
+                    "shasum": "7328432fee4e1275b1af7b46d22b550be03cdf2c"
                 },
                 "require": {
                     "doctrine/dbal": "^2.6|^3.0",
