@@ -1,5 +1,88 @@
 {
     "packages": {
-        "kylin/modules": []
+        "kylin/modules": [
+            {
+                "name": "kylin/modules",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitee.com/kylin20200921/modules.wangk.cn.git",
+                    "reference": "f875b5da99df146b00ca4d2da8c4c9a4543a67c9"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://packagist.wangk.cn/dist/kylin/modules/kylin-modules-0.0.1-cc4b77.tar",
+                    "reference": "f875b5da99df146b00ca4d2da8c4c9a4543a67c9",
+                    "shasum": "bbd0656ae7df8a43d3e31dfb9fd0fa9c54d34108"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=8.2",
+                    "wikimedia/composer-merge-plugin": "^2.1"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^v3.52",
+                    "laravel/framework": "^v11.0",
+                    "mockery/mockery": "^1.6",
+                    "orchestra/testbench": "^v9.0",
+                    "phpstan/phpstan": "^1.4",
+                    "phpunit/phpunit": "^11.0",
+                    "spatie/phpunit-snapshot-assertions": "^5.0"
+                },
+                "time": "2024-08-12T07:57:05+00:00",
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Kylin\\Modules\\LaravelModulesServiceProvider"
+                        ],
+                        "aliases": {
+                            "Module": "Kylin\\Modules\\Facades\\Module"
+                        }
+                    },
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "installation-source": "source",
+                "autoload": {
+                    "psr-4": {
+                        "Kylin\\Modules\\": "src"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Kylin\\Modules\\Tests\\": "tests",
+                        "Kylin\\Recipe\\": "tests/stubs/valid/Recipe"
+                    }
+                },
+                "scripts": {
+                    "update-snapshots": [
+                        "./vendor/bin/phpunit --no-coverage -d --update-snapshots"
+                    ],
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ],
+                    "test-coverage": [
+                        "vendor/bin/phpunit --coverage-html coverage"
+                    ],
+                    "pcf": [
+                        "vendor/bin/php-cs-fixer fix --verbose"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "Laravel模块管理工具",
+                "keywords": [
+                    "kylin",
+                    "modules"
+                ]
+            }
+        ]
     }
 }
