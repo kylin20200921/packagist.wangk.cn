@@ -8,13 +8,13 @@
                 "source": {
                     "type": "git",
                     "url": "https://gitee.com/kylin20200921/admin.wangk.cn.git",
-                    "reference": "f78decbdde07f0bc72dc9d4cde88181ec4098075"
+                    "reference": "c64aa219bbf2aea1a8014a30b7a5de33d1f1aa06"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://packagist.wangk.cn/dist/kylin/admin/kylin-admin-0.0.1-e72898.tar",
-                    "reference": "f78decbdde07f0bc72dc9d4cde88181ec4098075",
-                    "shasum": "85ca7fc6f0e5c09df5aac500b1db877507876421"
+                    "url": "https://packagist.wangk.cn/dist/kylin/admin/kylin-admin-0.0.1-12dfcc.tar",
+                    "reference": "c64aa219bbf2aea1a8014a30b7a5de33d1f1aa06",
+                    "shasum": "a27672fadedb382b15d9761670dd3b354994c97c"
                 },
                 "require": {
                     "doctrine/dbal": "^2.6|^3.0|^4.0",
@@ -22,7 +22,7 @@
                     "php": "^8.2",
                     "spatie/eloquent-sortable": "3.*|4.*"
                 },
-                "time": "2024-08-12T05:46:24+00:00",
+                "time": "2024-08-12T06:39:36+00:00",
                 "type": "library",
                 "extra": {
                     "laravel": {
