@@ -8,7 +8,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://gitee.com/kylin20200921/modules.wangk.cn.git",
-                    "reference": "f875b5da99df146b00ca4d2da8c4c9a4543a67c9"
+                    "reference": "448911bb8b66509ea0626155b523dcf009e8fe26"
                 },
                 "require": {
                     "ext-json": "*",
@@ -24,7 +24,7 @@
                     "phpunit/phpunit": "^11.0",
                     "spatie/phpunit-snapshot-assertions": "^5.0"
                 },
-                "time": "2024-08-12T07:57:05+00:00",
+                "time": "2024-08-12T09:36:01+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -71,7 +71,7 @@
                 "license": [
                     "MIT"
                 ],
-                "description": "Laravel模块管理工具",
+                "description": "麒麟集团",
                 "keywords": [
                     "kylin",
                     "modules"
