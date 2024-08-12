@@ -8,13 +8,13 @@
                 "source": {
                     "type": "git",
                     "url": "https://gitee.com/kylin20200921/project.wangk.cn.git",
-                    "reference": "5fb8dfca93271da02a4e9bfa6d8946a9fd44a656"
+                    "reference": "ea9dc894f90b775cbbc6c20b078da05962ec0386"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://packagist.wangk.cn/dist/kylin/kylin/kylin-kylin-0.0.1-e88fd2.tar",
-                    "reference": "5fb8dfca93271da02a4e9bfa6d8946a9fd44a656",
-                    "shasum": "15de1c0e63277fe550463342db78017cae38a0b5"
+                    "url": "https://packagist.wangk.cn/dist/kylin/kylin/kylin-kylin-0.0.1-49178b.tar",
+                    "reference": "ea9dc894f90b775cbbc6c20b078da05962ec0386",
+                    "shasum": "287a47d165eb69bb120900b8730f9b8a4709b369"
                 },
                 "require": {
                     "akaunting/laravel-firewall": "^2.2",
@@ -41,7 +41,7 @@
                     "phpunit/phpunit": "^11.0.1",
                     "spatie/laravel-ignition": "^2.8"
                 },
-                "time": "2024-08-12T07:26:45+00:00",
+                "time": "2024-08-12T07:47:22+00:00",
                 "type": "project",
                 "extra": {
                     "laravel": {

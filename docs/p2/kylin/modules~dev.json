@@ -3,12 +3,12 @@
         "kylin/modules": [
             {
                 "name": "kylin/modules",
-                "version": "v1.0.x-dev",
-                "version_normalized": "1.0.9999999.9999999-dev",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
                     "url": "https://gitee.com/kylin20200921/modules.wangk.cn.git",
-                    "reference": "ff01ea11880721cb40b9339c72d6d22f2f87895c"
+                    "reference": "012f6142c2f1da1d300a8e09e93650e9ace948d3"
                 },
                 "require": {
                     "ext-json": "*",
@@ -24,7 +24,7 @@
                     "phpunit/phpunit": "^11.0",
                     "spatie/phpunit-snapshot-assertions": "^5.0"
                 },
-                "time": "2024-03-26T17:29:44+00:00",
+                "time": "2024-08-12T07:45:58+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
