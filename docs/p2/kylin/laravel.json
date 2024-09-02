@@ -8,13 +8,13 @@
                 "source": {
                     "type": "git",
                     "url": "https://gitee.com/kylin20200921/laravel.wangk.cn.git",
-                    "reference": "b4fc523a3ebb3348fde1a02cedc95f027a678ed8"
+                    "reference": "3a595b5ea85178844cf88525b8dba7a19914a205"
                 },
                 "dist": {
                     "type": "tar",
-                    "url": "https://packagist.wangk.cn/dist/kylin/laravel/kylin-laravel-0.0.1-bacb66.tar",
-                    "reference": "b4fc523a3ebb3348fde1a02cedc95f027a678ed8",
-                    "shasum": "79690457e42c2750c2c559daa0ab48a432620aa7"
+                    "url": "https://packagist.wangk.cn/dist/kylin/laravel/kylin-laravel-0.0.1-ab6f2d.tar",
+                    "reference": "3a595b5ea85178844cf88525b8dba7a19914a205",
+                    "shasum": "fc8bd5716a449fa55abfd7d0ec8eca4e0e056f21"
                 },
                 "require": {
                     "akaunting/laravel-firewall": "^2.2",
@@ -27,7 +27,7 @@
                     "laravel/sanctum": "^4.0",
                     "laravel/socialite": "^5.15",
                     "laravel/tinker": "^2.9",
-                    "php": "^8.2",
+                    "php": "^8.3",
                     "spatie/laravel-permission": "^6.9"
                 },
                 "require-dev": {
@@ -41,7 +41,7 @@
                     "phpunit/phpunit": "^11.0.1",
                     "spatie/laravel-ignition": "^2.8"
                 },
-                "time": "2024-08-12T10:15:39+00:00",
+                "time": "2024-09-02T12:11:37+00:00",
                 "type": "project",
                 "extra": {
                     "laravel": {
@@ -86,6 +86,7 @@
                         "@php artisan vendor:publish --provider=\"Kylin\\Modules\\LaravelModulesServiceProvider\" --tag=\"config\"",
                         "@php artisan vendor:publish --provider=\"Laravel\\Sanctum\\SanctumServiceProvider\"",
                         "@php artisan vendor:publish --tag=\"firewall\"",
+                        "@php artisan telescope:install",
                         "@php artisan admin:publish",
                         "@php artisan migrate --graceful --ansi",
                         "@php artisan admin:install"
