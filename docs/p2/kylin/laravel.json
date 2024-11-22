@@ -14,7 +14,7 @@
                     "type": "tar",
                     "url": "https://packagist.wangk.cn/dist/kylin/laravel/kylin-laravel-0.0.1-040505.tar",
                     "reference": "97ae7ea3cf6ca1f0f4f4829ff95a8c7d81df4405",
-                    "shasum": "c8f61ad6be7d7eabc4571563299c8804571a63a6"
+                    "shasum": "c6f730ec2fab516b53c7dfce0fc252be4daa5bb2"
                 },
                 "require": {
                     "akaunting/laravel-firewall": "^2.2",
