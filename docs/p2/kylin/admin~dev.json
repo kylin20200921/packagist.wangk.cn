@@ -1,0 +1,56 @@
+{
+    "packages": {
+        "kylin/admin": [
+            {
+                "name": "kylin/admin",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitee.com/kylin20200921/admin.wangk.cn.git",
+                    "reference": "e132ac57967c2a0b371cc77797d3cfa242244e8a"
+                },
+                "require": {
+                    "doctrine/dbal": "^2.6|^3.0|^4.0",
+                    "laravel/framework": "~10.0|~11.0|~12.0",
+                    "php": "^8.2",
+                    "spatie/eloquent-sortable": "3.*|4.*"
+                },
+                "time": "2024-11-22T13:06:22+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": [
+                            "Dcat\\Admin\\AdminServiceProvider"
+                        ]
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Dcat\\Admin\\": "src/"
+                    },
+                    "files": [
+                        "src/Support/helpers.php"
+                    ]
+                },
+                "scripts": {
+                    "phpstan": [
+                        "vendor/bin/phpstan analyse"
+                    ],
+                    "test": [
+                        "vendor/bin/phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "description": "麒麟集团",
+                "keywords": [
+                    "Kylin",
+                    "系统模板"
+                ]
+            }
+        ]
+    }
+}
