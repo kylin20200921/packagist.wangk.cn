@@ -14,7 +14,7 @@
                     "type": "tar",
                     "url": "https://packagist.wangk.cn/dist/kylin/modules/kylin-modules-0.0.1-56a948.tar",
                     "reference": "448911bb8b66509ea0626155b523dcf009e8fe26",
-                    "shasum": "cd3bbe18b53451cbb37385dd86d58a506d1bdd01"
+                    "shasum": "89b6725864543c80c674d0d02b94f2a68e3a4455"
                 },
                 "require": {
                     "ext-json": "*",

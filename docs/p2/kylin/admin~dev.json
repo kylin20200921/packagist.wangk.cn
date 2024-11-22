@@ -8,7 +8,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://gitee.com/kylin20200921/admin.wangk.cn.git",
-                    "reference": "640bdaa9533066b243b421f0837c6398ae0feca3"
+                    "reference": "e132ac57967c2a0b371cc77797d3cfa242244e8a"
                 },
                 "require": {
                     "doctrine/dbal": "^2.6|^3.0|^4.0",
@@ -16,7 +16,7 @@
                     "php": "^8.2",
                     "spatie/eloquent-sortable": "3.*|4.*"
                 },
-                "time": "2024-08-12T15:25:04+00:00",
+                "time": "2024-11-22T13:06:22+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
