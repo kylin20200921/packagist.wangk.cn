@@ -14,7 +14,7 @@
                     "type": "tar",
                     "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.0.0.1-5a6a69.tar",
                     "reference": "e1685f38e3924402eb9bad32b4153aa4cb347a63",
-                    "shasum": "284e3ed03cb5677fbd9b8a8c58fc0992ea4be0a6"
+                    "shasum": "af2644daeaa952a9d2a32ee23e9d38c9eb3125d8"
                 },
                 "require": {
                     "easy-task/easy-task": "^2.4",
@@ -74,7 +74,7 @@
                     "type": "tar",
                     "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.0.0.2-6844a8.tar",
                     "reference": "7887d0eeb49825142bc5938bbf3154dcdcf38519",
-                    "shasum": "60132295f08ded395ddc2d6ac7667a294500ce7b"
+                    "shasum": "4812cde36ac4f0d6e176fbb380d860691f5b0780"
                 },
                 "require": {
                     "easy-task/easy-task": "^2.4",
@@ -134,7 +134,7 @@
                     "type": "tar",
                     "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.1-6844a8.tar",
                     "reference": "7887d0eeb49825142bc5938bbf3154dcdcf38519",
-                    "shasum": "12fc5f5b327c5f77ea586762143e39db92896494"
+                    "shasum": "fd2609ac36b1eba3bdcb0d897542bcf073736584"
                 },
                 "require": {
                     "easy-task/easy-task": "^2.4",
@@ -194,7 +194,7 @@
                     "type": "tar",
                     "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.2-598c74.tar",
                     "reference": "97acf2a30fd155338a870bd1fb0a371d232f419f",
-                    "shasum": "aa618857025c4141464d1c1c5d780c75e8038185"
+                    "shasum": "7f65ed33840a9ca00cd685458ccbe91d7cfaf0a2"
                 },
                 "require": {
                     "easy-task/easy-task": "^2.4",
@@ -254,7 +254,7 @@
                     "type": "tar",
                     "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.3-a9ee77.tar",
                     "reference": "7d39eeca943dcbf8b6352518706ddf09a122ba2a",
-                    "shasum": "dd341d11c2f86c2753068163631b1da49817c2a9"
+                    "shasum": "672888cba2cf68cbb520788b04ce0f29d5250652"
                 },
                 "require": {
                     "easy-task/easy-task": "^2.4",
@@ -314,7 +314,7 @@
                     "type": "tar",
                     "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.4-de1817.tar",
                     "reference": "45e08b89116154262c461c6a6143e2218256b16a",
-                    "shasum": "2311044e06620e8a87d3a7543ded783ce7055440"
+                    "shasum": "86637cb745f9baec90047a7cb4adfa432bd5ee62"
                 },
                 "require": {
                     "easy-task/easy-task": "^2.4",
@@ -374,7 +374,7 @@
                     "type": "tar",
                     "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.5-975f43.tar",
                     "reference": "38e74f0d57dd85a550b33ab268335b657bb06c53",
-                    "shasum": "0eccb42aa4b1750418405d295c936559c2b9dfe8"
+                    "shasum": "b4e363b7e5b2397c1abbeeb3f2abd4e8ab37a02b"
                 },
                 "require": {
                     "easy-task/easy-task": "^2.4",
@@ -434,7 +434,7 @@
                     "type": "tar",
                     "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.6-550ba7.tar",
                     "reference": "e4d7e4c929dd7167aae24f540432dd2edb9855a0",
-                    "shasum": "0813b05a7b39cf4ebdca8c0e71472db591da739b"
+                    "shasum": "b73d9b7838b7b8ad6b830d98bef0dd845887814b"
                 },
                 "require": {
                     "easy-task/easy-task": "^2.4",
@@ -494,7 +494,7 @@
                     "type": "tar",
                     "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.7-2eb5e3.tar",
                     "reference": "d4f329870c5c58ccf827e46e9e38c7f41f4abca8",
-                    "shasum": "c8276d8c43540655ca177fdb931f4e668f0fee2d"
+                    "shasum": "e647044ead698a815a0442f9dcedaa6700fbe3f7"
                 },
                 "require": {
                     "easy-task/easy-task": "^2.4",
@@ -554,7 +554,7 @@
                     "type": "tar",
                     "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.8-4fa423.tar",
                     "reference": "86e1e50144fafea076def799e5bb45dadc5e97aa",
-                    "shasum": "5bfeee094a0e7f2ee08178ec3ce590e7d21d98ed"
+                    "shasum": "13f5297f34dd79aaed1827df30112ac88e7505e4"
                 },
                 "require": {
                     "easy-task/easy-task": "^2.4",
@@ -614,7 +614,7 @@
                     "type": "tar",
                     "url": "https://packagist.wangk.cn/dist/kylin/sy-api/kylin-sy-api-1.1.0.9-030669.tar",
                     "reference": "51f56fa6f010b2ccf6c0a2af66141229bd223371",
-                    "shasum": "8716c565a26e76ead4c2670e5c4381eb7cf30e4a"
+                    "shasum": "9e0fd82e9ecc22f43eefeeb03f30fc8435b10abf"
                 },
                 "require": {
                     "easy-task/easy-task": "^2.4",
