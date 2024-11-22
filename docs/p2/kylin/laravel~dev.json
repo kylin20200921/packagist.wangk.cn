@@ -8,34 +8,32 @@
                 "source": {
                     "type": "git",
                     "url": "https://gitee.com/kylin20200921/laravel.wangk.cn.git",
-                    "reference": "3a595b5ea85178844cf88525b8dba7a19914a205"
+                    "reference": "97ae7ea3cf6ca1f0f4f4829ff95a8c7d81df4405"
                 },
                 "require": {
                     "akaunting/laravel-firewall": "^2.2",
                     "hisorange/browser-detect": "^4.5",
-                    "intervention/image": "^3.7",
+                    "intervention/image": "^3.9",
                     "kylin/admin": "^0.0.1",
                     "kylin/modules": "^0.0.1",
-                    "laravel/framework": "^11.9",
-                    "laravel/octane": "^2.5",
+                    "laravel/framework": "^11.31",
                     "laravel/sanctum": "^4.0",
-                    "laravel/socialite": "^5.15",
+                    "laravel/socialite": "^5.16",
                     "laravel/tinker": "^2.9",
                     "php": "^8.3",
-                    "spatie/laravel-permission": "^6.9"
+                    "spatie/laravel-permission": "^6.10"
                 },
                 "require-dev": {
-                    "barryvdh/laravel-ide-helper": "^3.1",
+                    "barryvdh/laravel-ide-helper": "^3.2",
                     "fakerphp/faker": "^1.23",
+                    "laravel/pail": "^1.1",
                     "laravel/pint": "^1.13",
                     "laravel/sail": "^1.26",
-                    "laravel/telescope": "^5.2",
                     "mockery/mockery": "^1.6",
-                    "nunomaduro/collision": "^8.0",
-                    "phpunit/phpunit": "^11.0.1",
-                    "spatie/laravel-ignition": "^2.8"
+                    "nunomaduro/collision": "^8.1",
+                    "phpunit/phpunit": "^11.0.1"
                 },
-                "time": "2024-09-02T12:11:37+00:00",
+                "time": "2024-11-22T14:07:12+00:00",
                 "default-branch": true,
                 "type": "project",
                 "extra": {
@@ -84,6 +82,10 @@
                         "@php artisan admin:publish",
                         "@php artisan migrate --graceful --ansi",
                         "@php artisan admin:install"
+                    ],
+                    "dev": [
+                        "Composer\\Config::disableProcessTimeout",
+                        "npx concurrently -c \"#93c5fd,#c4b5fd,#fb7185,#fdba74\" \"php artisan serve\" \"php artisan queue:listen --tries=1\" \"php artisan pail --timeout=0\" \"npm run dev\" --names=server,queue,logs,vite"
                     ]
                 },
                 "license": [
@@ -91,8 +93,8 @@
                 ],
                 "description": "麒麟集团",
                 "keywords": [
-                    "Kylin",
-                    "系统模板"
+                    "laravel",
+                    "麒麟集团"
                 ]
             }
         ]
